@@ -1,0 +1,97 @@
+@import url(url(para subir.html));
+
+body{
+    background-color:#5a0a3f;
+}
+header{
+    background: linear-gradient(to top,#af96ac,#5a0a3f);
+    align-items: center;
+    padding: 15px;
+    border-radius: 15px;
+}
+.tit1{
+color: #ecbe36;
+text-align: center;
+margin-bottom: 0%;
+font-family: "Great Vibes",cursive;
+font-size: 300%;
+}
+.tit2{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 100%;
+    color: #ecbe36;
+}
+ul{
+    display: flex;
+    list-style: none;
+    color: rgb(198, 218, 20);
+    font-size:large;
+}
+ul li:hover{
+    color: #da23c1;
+    cursor: pointer;
+    font-size: x-large;
+    border-color: #991867;
+    transition: all 0.3s ease-in-out;
+    
+}
+li{
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: #a4a485;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 15px;
+    border-radius: 15px;
+}
+img{
+    display: block;
+    margin: 0 auto;
+    max-width: 20%;
+    height: auto;
+    border-radius: 12px;
+    padding: 10px;
+}
+iframe{
+    display: block;
+    width: 250px;
+    height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+}
+footer{
+    text-align: center;
+}
+
+.nav-container {
+            background-color: #993791;
+            box-shadow: 0 2px 5px rgba(243, 236, 236, 0.05);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+.header-logo {
+            width: 90px;
+            height: 90px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid #ffffff;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+        }
+.pie_p {     background: linear-gradient(135deg, #222222 0%, #310422 100%);     
+color: #ffffff;     
+text-align: center;    
+ padding: 20px;   
+ margin-top: 40px;    
+ font-size: 0.9rem; } 
+ .c_iframe {     max-width: 4000px;  
+       margin: 10 px auto;   
+         padding: 0 15px; } 
+iframe {     width: 100%;    
+     height: 600px;     
+     border: 2px solid #e0e0e0;     
+     border-radius: 8px;     
+     background-color: #ffffff; } 

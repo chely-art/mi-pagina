@@ -1,0 +1,122 @@
+
+
+        body {
+            background-color:#5a0a3f;
+            color: #374151;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        .profile-container {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+         /* Bloque de Presentación Principal */
+        .profile-hero {
+            display: flex;
+            align-items: center;
+            gap: 30px;
+            background: #f9fafb;
+            padding: 25px;
+            border-radius: 12px;
+            border-left: 5px solid #4f46e5;
+        }
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid #e5e7eb;
+        }
+        .profile-intro h1 {
+            font-size: 1.8rem;
+            color: #111827;
+            margin-bottom: 5px;
+        }
+        .profile-intro h2 {
+            font-size: 1.1rem;
+            color: #6b7280;
+            font-weight: 400;
+            margin-bottom: 15px;
+    }
+header{
+    background: linear-gradient(to top,#af96ac,#5a0a3f);
+    padding: 15px;
+    border-radius: 15px;
+    display: flex;
+}
+.tit1{
+color: #ecbe36;
+text-align: center;
+margin-bottom: 0%;
+font-family: "Great Vibes",cursive;
+font-size: 300%;
+}
+.tit2{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 100%;
+    color: #ecbe36;
+}
+ul{
+    display: flex;
+    list-style: none;
+    color: rgb(198, 218, 20);
+    font-size:large;
+}
+ul li:hover{
+    color: #da23c1;
+    cursor: pointer;
+    font-size: x-large;
+    border-color: #991867;
+    transition: all 0.3s ease-in-out;
+    
+}
+li{
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: #a4a485;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 15px;
+    border-radius: 15px;
+}
+img{
+    display: block;
+    margin: 0 auto;
+    max-width: 20%;
+    height: auto;
+    border-radius: 12px;
+    padding: 10px;
+}
+iframe{
+    display: block;
+    width: 250px;
+    height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+}
+footer{
+    text-align: center;
+}
+
+.nav-container {
+            background-color: #993791;
+            box-shadow: 0 2px 5px rgba(243, 236, 236, 0.05);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+.header-logo {
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid #ffffff;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+            display: flex;
+        }
